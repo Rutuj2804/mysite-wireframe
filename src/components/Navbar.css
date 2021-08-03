@@ -1,0 +1,68 @@
+.navbar__TopBar{
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__TopBar .navbar__Logo{
+    display: flex;
+    align-items: center;
+}
+.navbar__TopBar .navbar__Logo .navbar__LogoNAme{
+    margin-left: 7px;
+}
+.navbar__TopBar .navbar__RightMenu{
+    display: flex;
+    align-items: center;
+}
+.navbar__TopBar .navbar__RightMenu .navbar__User{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar__User h5{
+    margin: 0%;
+}
+.navbar__TopBar .navbar__RightMenu .navbar__User div{
+    margin-right: 7px;
+}
+.navbar__TopBar .navbar__RightMenu .navbar__User button{
+    margin-right: 7px!important;
+}
+.navbar__LeftBar{
+    width: 310px;
+    background-color: #efefef;
+    min-height: 90vh;
+}
+.navbar__LeftBar ul{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 2px;
+}
+.navbar__LeftBar ul li{
+    margin: 7px 5px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navbar__LeftBar ul .navbar__Current{
+    background-color: #E1D8F1;
+    border-left: 5px solid #673AB7;
+    margin-left: 0px;
+    color: #330B86;
+}
+.navbar__LeftBar ul .navbar__Current .MuiSvgIcon-root{
+    fill: #330B86;
+}
+.navbar__LeftBar ul li .MuiSvgIcon-root {
+    margin-right: 7px!important;
+    cursor: pointer;
+}
+.navbar__LeftBar img{
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    margin-left: 3px;
+}

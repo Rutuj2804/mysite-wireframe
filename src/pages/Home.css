@@ -1,0 +1,35 @@
+.home__Options{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.home__Options button{
+    margin-right: 10px;
+}
+.home__Options .MuiButton-root{
+    background-color: #673AB7!important;
+    color: #fff;
+    width: 150px;
+}
+.home__Table{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+thead tr th, tbody tr td{
+    font-weight: 400;
+    font-size: 14px;
+}
+tbody tr button{
+    background: rgba(39, 174, 96, 0.3);
+    padding: 3px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #27AE60;
+    font-size: 12px;
+}
+tbody tr .restricted{
+    background: rgba(255, 8, 8, 0.3);
+    color: #FF0808;
+}

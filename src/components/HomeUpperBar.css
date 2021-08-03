@@ -1,0 +1,48 @@
+.homeUpperBar__Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(207, 211, 218, 0.5);
+}
+.homeUpperBar__LeftSideOptions{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.homeUpperBar__LeftSideOptions div{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.homeUpperBar__Selected{
+    position: relative;
+    overflow: hidden;
+    border-right: 1px solid rgba(207, 211, 218, 0.5);
+}
+.homeUpperBar__Selected::before{
+    content: '';
+    position: absolute;
+    bottom:-40px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #673AB7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.homeUpperBar__Selected .MuiSvgIcon-root, .homeUpperBar__Selected p{
+    fill: #673AB7;
+    color: #673AB7;
+}
+.homeUpperBar__NotSelected .MuiSvgIcon-root, .homeUpperBar__NotSelected p{
+    fill: #dadada;
+    color: #333;
+}
+.homeUpperBar__LeftSideOptions div,.homeUpperBar__RightSideOptions{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.homeUpperBar__LeftSideOptions div p,.homeUpperBar__RightSideOptions p{
+    margin: 0%;
+    margin-left: 7px;
+}
